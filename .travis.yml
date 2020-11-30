@@ -1,0 +1,8 @@
+dist: trusty
+language: bash
+branches:
+  only:
+  - master
+
+script:
+  - bash dockerhub-v2-api-user.sh
