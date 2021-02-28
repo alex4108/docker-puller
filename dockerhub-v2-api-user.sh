@@ -33,6 +33,8 @@ done
 
 # output
 
+docker login -u ${UNAME} -p ${UPASS}
+
 for i in ${FULL_IMAGE_LIST}
 do
   echo ${i}
